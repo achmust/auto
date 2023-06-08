@@ -1,0 +1,35 @@
+.header_section {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  & .logo {
+    width: 15%;
+  }
+}
+.header-sidebar {
+  & .burger {
+    height: auto;
+    row-gap: 3px;
+    width: 25px;
+    cursor: pointer;
+    &-close-item {
+      font-size: 25px;
+      font-weight: 600;
+      color: black;
+    }
+    &:hover {
+      & .burger-close-item {
+        color: white;
+      }
+      & .burger-item {
+        background-color: white;
+      }
+    }
+    &-item {
+      height: 3px;
+      width: 25px;
+      background-color: black;
+    }
+  }
+}

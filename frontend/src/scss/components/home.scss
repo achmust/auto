@@ -1,0 +1,20 @@
+.home_section {
+  width: 100%;
+  height: auto;
+}
+.main {
+  width: 90%;
+  height: 700px;
+  column-gap: 1.5rem;
+  &-left,
+  &-right {
+    width: 45%;
+    height: 80%;
+  }
+  &-right-img {
+    height: 90%;
+    width: 90%;
+    background: url("../../images/undraw_automobile_repair_ywci.svg");
+    border-radius: 10px;
+  }
+}

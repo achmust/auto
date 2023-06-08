@@ -1,0 +1,28 @@
+.car-item {
+  height: 50px;
+  cursor: pointer;
+  font-size: 13px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  text-transform: uppercase;
+  &:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+}
+.cars-list-header {
+  height: 50px;
+  border-bottom: 1px solid grey;
+  font-weight: 600;
+  font-size: 18px;
+}
+.cars-list-body {
+  row-gap: 1rem;
+}
+.car-brand,
+.car-model,
+.car-year,
+.car-plate {
+  display: flex;
+  align-items: center;
+}

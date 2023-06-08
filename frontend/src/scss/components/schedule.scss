@@ -1,0 +1,36 @@
+$primary: rgba(125, 125, 125);
+
+.schedule {
+  border: 1px solid $primary;
+}
+.schedule-header {
+  margin-left: 5%;
+  width: 95%;
+  border-left: 1px solid $primary;
+}
+.header-child {
+  height: 50px;
+  background-color: #060b26;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: large;
+  color: white;
+}
+.hours {
+  height: auto;
+  width: 5%;
+}
+.hours-item {
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid $primary;
+}
+.body-worker {
+  width: 95%;
+  border-left: 1px solid $primary;
+}
+.body-worker-item {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid $primary;
+}

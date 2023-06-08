@@ -1,0 +1,56 @@
+.dropdown {
+  width: 100%;
+  height: auto;
+  &-head {
+    width: 100%;
+    height: 50px;
+    background-color: #060b26;
+    font-size: 18px;
+    color: white;
+  }
+}
+.expand-open {
+  height: 130px;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+.expand-open-small {
+  height: 50px;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+.expand-close {
+  height: 0px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.res {
+  width: 14%;
+  display: flex;
+  align-items: center;
+}
+.reservation-header {
+  font-size: 18px;
+  font-weight: 600;
+  height: 50px;
+  border-bottom: 1px solid grey;
+}
+.reservations-body-item {
+  font-size: 13px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  text-transform: uppercase;
+  &:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+}
+.reservations-body {
+  row-gap: 1rem;
+  text-transform: uppercase;
+}
+.rezervation-modal {
+  overflow-y: auto;
+}
